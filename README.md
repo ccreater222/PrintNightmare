@@ -1,3 +1,9 @@
+
+
+You don't need a hardcoded printer driver path for CVE-2021-1675 as you can actually just use EnumPrinterDrivers() to find the path for UNIDRV.DLL just in case anyone wondered about weaponizing the PoC.
+
+
+
 ## PrintNightmare (CVE-2021-1675): Remote code execution in Windows Spooler Service
 
  
